@@ -2,6 +2,9 @@
 
 A safety-aware medical chatbot built using Retrieval-Augmented Generation (RAG). It answers health-related queries by retrieving relevant context from a knowledge base of medical documents and generating grounded, context-aware responses — reducing hallucination compared to a standalone LLM.
 
+## 🚀 Live Demo
+https://huggingface.co/spaces/riasri16/clinical-rag-bot
+
 ## Features
 
 - **Retrieval-Augmented Generation (RAG)** — retrieves relevant document chunks before generating an answer, keeping responses grounded in source material
