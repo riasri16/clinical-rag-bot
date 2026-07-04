@@ -41,10 +41,10 @@ The project is built in three phases:
 - Retrieve relevant context and generate an answer using RAG
 - ## Project Structure
 - medibot-rag/
-├── medibot.py                     # Streamlit chatbot application
-├── create_memory_for_llm.py       # Builds the FAISS vector store from PDFs
-├── connect_memory_with_llm.py     # Standalone script to test the RAG pipeline via CLI
-├── requirements.txt               # Python dependencies
+├── medibot.py                      # Streamlit chatbot application
+├── create_memory_for_llm.py        # Builds the FAISS vector store from PDFs
+├── connect_memory_with_llm.py      # Standalone script to test the RAG pipeline via CLI
+├── requirements.txt                # Python dependencies
 └── README.md
 
 > Note: The `data/` (source PDFs) and `vectorstore/` (FAISS index) directories are not included in this repository. Run `create_memory_for_llm.py` locally to generate them from your own documents.
