@@ -1,4 +1,4 @@
-# MediBot — RAG-based Medical Chatbot
+# clinical-rag-bot — RAG-based Medical Chatbot
 
 A safety-aware medical chatbot built using Retrieval-Augmented Generation (RAG). It answers health-related queries by retrieving relevant context from a knowledge base of medical documents and generating grounded, context-aware responses — reducing hallucination compared to a standalone LLM.
 
